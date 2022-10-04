@@ -1,11 +1,36 @@
 :root {
   --Header-style-text-color: #212121;
   --Header-footer-style-color: #2f303a;
+  --Main-botton-style-color: #ffffff;
+  --Main-botton-style-background-color: #2196f3;
+  --Main-content-our-team-background-color: #f5f4fa;
+  --Main-botton-hover-background-color: #188ce8;
+  --Header-Web-color: #2196f3;
+  --Header-Studio-color: #000000;
+  --Footer-Studio-color: #ffffff;
+  --Header-menu-studiy-index-color: #2196f3;
+  --Header-menu-portfolio-color: #2196f3;
+  --Header-menu-studiy-color: #757575;
+  --Header-menu-hover-color: #2196f3;
+  --Main-main-content-color: #ffffff;
+  --Adress-Style-color: #ffffff;
+  --Adress-hover-color: #2196f3;
+  --Adress-mail-tel-color: rgba(255, 255, 255, 0.6);
+  --Adress-mail-tel-hover-color: #2196f3;
+  --Main-botton-all-color: #ffffff;
+  --Main-botton-all-background-color: #188ce8;
+  --Main-bottons-background-color: #f5f4fa;
+  --Main-bottons-hover-color: #ffffff;
+  --Main-bottons-hover-background-color: #2196f3;
+  --Main-content-Benefits-paragraph-color: #757575;
+  --Main-content-team-personally-background-color: #ffffff;
+  --Main-content-team-paragraph-color: #757575;
+  --Main-menu-img-content-color: #757575;
 }
 
 body {
-  background: #ffffff;
-  font-family: "Roboto";
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 .main-botton {
   cursor: pointer;
@@ -18,28 +43,27 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--Main-botton-style-color);
 
-  background: #2196f3;
+  background-color: var(--Main-botton-style-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .main-content-our-team {
-  background: #f5f4fa;
+  background-color: var(--Main-content-our-team-background-color);
 }
 .main-botton:hover {
-  background: #188ce8;
+  background-color: var(--Main-botton-hover-background-color);
 }
 .main-botton:focus {
-  background: #188ce8;
+  background-color: var(--Main-botton-hover-background-color);
 }
 
 .main-head {
   margin-top: 0px;
-
-  height: 150px;
-  background: var(--Header-footer-style-color);
+  /* height: 150px; */
+  background-color: var(--Header-footer-style-color);
 }
 .header-Web {
   font-family: "Raleway", sans-serif;
@@ -48,7 +72,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--Header-Web-color);
 }
 .header-Studio {
   font-family: "Raleway", sans-serif;
@@ -57,7 +81,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--Header-Studio-color);
 }
 .footer-Studio {
   font-family: "Raleway", sans-serif;
@@ -69,31 +93,31 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--Footer-Studio-color);
 }
 .header-menu-studiy-index {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--Header-menu-studiy-index-color);
 }
 .header-menu-portfolio {
-  color: #2196f3;
+  color: var(--Header-menu-portfolio-color);
 }
 .header-menu-studiy {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
-  color: #757575;
+  /* color: #2196f3; */
+  color: var(--Header-menu-studiy-color);
 }
 .header-menu-studiy:hover {
-  color: #2196f3;
+  color: var(--Header-menu-hover-color);
 }
 .header-menu-studiy:focus {
-  color: #2196f3;
+  color: var(--Header-menu-hover-color);
 }
 .header-menu {
   font-weight: 500;
@@ -103,10 +127,10 @@ body {
   color: var(--Header-style-text-color);
 }
 .header-menu:hover {
-  color: #2196f3;
+  color: var(--Header-menu-hover-color);
 }
 .header-menu:focus {
-  color: #2196f3;
+  color: var(--Header-menu-hover-color);
 }
 .main-main-content {
   font-weight: 900;
@@ -115,50 +139,46 @@ body {
   /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--Main-main-content-color);
 }
 
 .footer-style {
-  height: 252px;
+  /* height: 252px; */
   left: 0px;
   top: 2094px;
-  background: var(--Header-footer-style-color);
+  background-color: var(--Header-footer-style-color);
 }
 .adress {
   font-style: normal;
-
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--Adress-Style-color);
 }
 .adress:hover {
-  color: #2196f3;
+  color: var(--Adress-hover-color);
 }
 .adress:focus {
-  color: #2196f3;
+  color: var(--Adress-hover-color);
 }
 .adress-mail-tel {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-
   font-size: 14px;
   line-height: 1.7;
-
-  /* or 171% */
   letter-spacing: 0.03em;
-
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: var(--Adress-mail-tel-color);
 }
 .adress-mail-tel:hover {
-  color: #2196f3;
+  color: var(--Adress-mail-tel-hover-color);
 }
 .adress-mail-tel:focus {
-  color: #2196f3;
+  color: var(--Adress-mail-tel-hover-color);
 }
 .main-botton-all {
-  font-family: "Roboto";
-
+  /* font-family: "Roboto", sans-serif; */
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -166,12 +186,12 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
-  background: #188ce8;
+  color: var(--Main-botton-all-color);
+  background-color: var(--Main-botton-all-background-color);
   cursor: pointer;
 }
 .main-bottons {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 
   font-weight: 500;
   font-size: 16px;
@@ -180,17 +200,17 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  background: #f5f4fa;
+  background-color: var(--Main-bottons-background-color);
   color: var(--Header-style-text-color);
   cursor: pointer;
 }
 .main-bottons:hover {
-  background: #2196f3;
-  color: #ffffff;
+  background-color: var(--Main-bottons-hover-background-color);
+  color: var(--Main-bottons-hover-color);
 }
 .main-bottons:focus {
-  background: #2196f3;
-  color: #ffffff;
+  background-color: var(--Main-bottons-hover-background-color);
+  color: var(--Main-bottons-hover-color);
 }
 .main-bottons:active {
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -208,7 +228,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--Main-content-Benefits-paragraph-color);
 }
 .main-content-review {
   font-weight: 700;
@@ -229,7 +249,7 @@ body {
   color: var(--Header-style-text-color);
 }
 .main-content-team-personally {
-  background: #ffffff;
+  background-color: var(--Main-content-team-personally-background-color);
 }
 .main-content-team-name {
   font-weight: 500;
@@ -246,7 +266,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--Main-content-team-paragraph-color);
 }
 .main-menu-img {
   font-weight: 700;
@@ -263,7 +283,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--Main-menu-img-content-color);
 }
 li {
   list-style-type: none; /* Убираем маркеры
